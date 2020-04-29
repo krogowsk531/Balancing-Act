@@ -81,7 +81,7 @@ th {
   left: 10px;
 }
 
-#boxContainer {
+.box-container {
   display: inline-block;
   position: relative;
   width: 570px;
@@ -121,7 +121,7 @@ th {
   box-shadow: 1px 1px rgba(0, 0, 0, 0.05);
 }
 
-.accountRow {
+.account-row {
   display: inline-block;
   background-color: white;
   border-radius: 3px;
@@ -131,7 +131,7 @@ th {
   position: relative;
 }
 
-.accountRow section {
+.account-row section {
   display: inline-block;
   width: 150px;
   height: 50px;
@@ -159,7 +159,7 @@ th {
   left: 40%;
 }
 
-.titleAccounts {
+.title-accounts {
   display: inline-block;
   position: relative;
   width: 500px;
@@ -461,4 +461,8 @@ main {
 
 h2, h3 {
   display: inline-block;
+}
+
+.specific-bank-info {
+
 }
